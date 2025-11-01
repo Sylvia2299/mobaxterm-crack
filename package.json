@@ -12,12 +12,12 @@
     "prod": "pnpm run build && cd app/.vuepress/dist && python -m http.server 8000"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
-    "@vuepress/theme-default": "2.0.0-rc.112",
-    "sass-embedded": "^1.90.0",
-    "vue": "^3.5.18",
-    "vuepress": "2.0.0-rc.24",
-    "vuepress-plugin-mobaxterm-cracker": "file:./vuepress-plugin-mobaxterm-cracker"
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/theme-default": "2.0.0-rc.118",
+    "sass-embedded": "^1.93.3",
+    "vue": "^3.5.22",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-plugin-mobaxterm-cracker": "file:vuepress-plugin-mobaxterm-cracker"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
